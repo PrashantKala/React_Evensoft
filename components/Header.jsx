@@ -45,7 +45,7 @@ const Header = (props) => {
         ></div>
       ))}
 
-      <div style={{ width: '70%', zIndex: 1 }} className="text-center">
+      <div style={{ zIndex: 1 }} className="headerBtn text-center">
         <h1 className='text-white display-5 fw-bold'>{props.heading}</h1>
         <p className='mt-3 text-white fs-5'>{props.subHeading}</p>
         <button onClick={()=>{
