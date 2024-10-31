@@ -11,7 +11,7 @@ const AboutUs = () => {
         {
             name: 'Chad Hughes',
             title: 'Founder & Chief Executive Officer',
-            photoUrl: '../images/chad_image.webp',
+            photoUrl: '../images/chad_image-Photoroom.png',
             decriptions: [
                 "20+ Years AI/ML Architect and Cyber Range Experience",
                 "Inventor, Software Developer, U.S. Marine Corps Veteran (Tank Commander 1990-2000)",
@@ -25,7 +25,7 @@ const AboutUs = () => {
         {
             name: 'Ernest McCabe',
             title: 'Co-Founder & Chief Technology Officer',
-            photoUrl: '../images/Ernest_McCaleb.webp',
+            photoUrl: '../images/Ernest_McCaleb-Photoroom.png',
             decriptions: [
                 "20+ Years Cyber Range Experience",
                 "Cybersecurity Architect, Developer, and Industry Thought Leader, Contributing Valuable Insights to Industry on Cyber Workforce Development and Cyber Architecture",
@@ -38,7 +38,7 @@ const AboutUs = () => {
         {
             name: 'LeAnna M. Lyons',
             title: ' Chief of Staff',
-            photoUrl: '../images/LeAnna.jpeg',
+            photoUrl: '../images/LeAnna-removebg.png',
             decriptions: [
                 "Nearly 20 years of experience in IT operations, business integration, and executive leadership across government and commercial sectors.",
                 "Holds multiple certifications, including PMI, COBIT, ITIL, and Agile, supporting her strategic approach to IT program management.",

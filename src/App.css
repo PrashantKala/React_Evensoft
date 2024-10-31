@@ -10,10 +10,15 @@
 .nav-item.active {
   /* color: #3498db; Highlight color */
   font-weight: bold;
+  /* color: #000; */
+  background-color: #333;
+  margin: auto;
+
   /* border-bottom: 2px solid #3498db; Optional underline */
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 50%;
-  transform: scale(1.4);
+  opacity: .5;
+  /* transform: scale(1.4); */
 }
 
 
@@ -271,7 +276,7 @@
 }
 
 .executive-photo {
-  width: 100%;
+  width: 80%;
   height: auto;
   max-height: 400px;
   object-fit: cover;
@@ -312,12 +317,6 @@
     transform: none;
   }
 
-  .nav-item.active{
-    margin: auto;
-    border: 2px solid white;
-    border-radius: 50%;
-    transform: scale(1.1);
-  }
 }
 
 @media (max-width: 480px) {
@@ -337,12 +336,6 @@
     padding: 0.75rem;
   }
 
-  .nav-item.active{
-    margin: auto;
-    border: 2px solid white;
-    border-radius: 50%;
-    transform: scale(1.1);
-  }
 }
 
 /* Background styling for the section */
@@ -503,9 +496,38 @@
 }
 
 .service-item:hover {
-  background: #000;
   color: #fff;
   transform: scale(1.1);
+}
+.service-item1:hover {
+  background-image: url("/images/animate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-item2:hover {
+  background-image: url("/images/animate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-item3:hover {
+  background-image: url("/images/animate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-item4:hover {
+  background-image: url("/images/animate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-item5:hover {
+  background-image: url("/images/animate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-item6:hover {
+  background-image: url("/images/chad_image-Photoroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .service-item i {
@@ -620,6 +642,8 @@
 .team-member:hover .hover-image {
   opacity: 1;
   transform: scale(1.1);
+  /* background-color: white; */
+
 }
 
 .team-member:hover {
