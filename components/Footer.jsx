@@ -52,12 +52,12 @@ const Footer = () => {
         </Row>
 
         {/* Divider */}
-        <hr className='mt-5 mb-5' />
+        <hr style={{color:"white"}} className='mt-5 mb-5' />
 
         {/* Copyright */}
         <Row className="text-center mt-4">
           <Col>
-            <p className="mb-0">© 2024 Eversoft, Inc. All rights reserved.</p>
+            <p className="mb-0 text-white">© 2024 Eversoft, Inc. All rights reserved.</p>
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 // import './App.css'; // assuming the styles are in App.css
 
 const Header = (props) => {
@@ -11,6 +12,8 @@ const Header = (props) => {
     const y = e.clientY / window.innerHeight;
     setMousePosition({ x, y });
   };
+
+  const navigate=useNavigate()
 
   return (
     <section className='hero-section' onMouseMove={handleMouseMove}>
@@ -45,7 +48,9 @@ const Header = (props) => {
       <div style={{ width: '70%', zIndex: 1 }} className="text-center">
         <h1 className='text-white display-5 fw-bold'>{props.heading}</h1>
         <p className='mt-3 text-white fs-5'>{props.subHeading}</p>
-        <button type="button" className="mt-3 btn btn-outline-secondary w-25 h-25 text-white">Contact Us</button>
+        <button onClick={()=>{
+          navigate("/ContactUs")
+        }}  type="button" className="mt-3 btn btn-outline-secondary w-25 h-25 text-white">Contact Us</button>
       </div>
     </section>
   );
