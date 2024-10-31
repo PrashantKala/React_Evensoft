@@ -74,18 +74,19 @@
 .card {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .card.visible {
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   opacity: 1;
   transform: translateY(0);
+  border: none;
 }
 
 /* Image on the left */
@@ -128,6 +129,12 @@
       width: 100%;
       transform: translateX(0);
       transition: none;
+  }
+  .card.visible {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
   }
 }
 
@@ -442,6 +449,7 @@
   transition: background 0.3s ease, color 0.3s ease;
   text-align: center;
   color: #000;
+  font-weight: bold;
 }
 
 .service-item:hover {
@@ -468,7 +476,8 @@
 
 .service-item p {
   font-size: 0.9em;
-  line-height: 1.5;
+  font-weight: 300;
+  /* line-height: 1.5; */
 }
 
 /* Responsive Layouts */
@@ -549,6 +558,7 @@
   background-position: center;
   transition: opacity 0.3s ease-in-out;
   border-radius: 50%;
+  padding: 100px;
 }
 
 .hover-image {
@@ -565,6 +575,7 @@
 .team-member:hover .hover-image {
   opacity: 1;
   transform: scale(1.1);
+  background-color: transparent;
 }
 
 .team-member:hover {
@@ -576,7 +587,8 @@
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #007bff;
+  font-weight: 300;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 5px;
@@ -585,7 +597,7 @@
 }
 
 .leadership-button:hover {
-  background-color: #0056b3;
+  background-color: #333;
 }
 
 /* Responsive Adjustments */
@@ -681,7 +693,7 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .hero-section {
-    height: 60vh;
+    height: 85vh;
   }
 }
 

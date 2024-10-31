@@ -3,23 +3,25 @@ import Navabar from './Navabar'
 import Header from './Header'
 import Footer from './Footer'
 import InfiniteSlider from './InfiniteSlider'
+import { useNavigate } from 'react-router-dom'
 
 const HomePage = () => {
+  const navigate=useNavigate()
   const teamMembers = [
     {
       name: 'Member 1',
       nonHoverImage: '../images/chad_image.webp',
-      hoverImage: '../images/animate.png',
+      hoverImage: '../images/chad_image-Photoroom.png',
     },
     {
       name: 'Member 1',
       nonHoverImage: '../images/Ernest_McCaleb.webp',
-      hoverImage: '../images/animate.png',
+      hoverImage: '../images/animatErnest_McCaleb-Photoroom.png',
     },
     {
       name: 'Member 1',
       nonHoverImage: '../images/LeAnna.jpeg',
-      hoverImage: '../images/LeAnna.jpeg',
+      hoverImage: '../images/LeAnna-removebg.jpeg',
     },
     
   ];
@@ -78,10 +80,13 @@ const HomePage = () => {
                   className="hover-image"
                 />
               </div>
+              {/* <p>{member.name}</p> */}
             </div>
           ))}
         </div>
-        <button className="leadership-button">LEADERSHIP TEAM</button>
+        <button className="leadership-button" onClick={()=>{
+          navigate("/About")
+        }} variant="outline-secondary text-white">LEADERSHIP TEAM</button>
       </div>
 
       <Footer />

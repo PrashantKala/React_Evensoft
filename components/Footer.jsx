@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import {Link} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 
 const Footer = () => {
+  const navigate=useNavigate();
   return (
     <footer className="d-flex justify-content-center align-items-end bg-black py-5">
       <Container className=''>
@@ -13,7 +14,9 @@ const Footer = () => {
             <p className='fs-5 text-white' >We’re here to help you revolutionize your security and development practices with pioneering technology.</p>
           </Col>
           <Col md={4} className="d-flex justify-content-center align-items-center">
-            <Button variant="outline-secondary text-white" className='fs-4'>Contact us</Button>
+            <Button onClick={()=>{
+              navigate("/ContactUs")
+            }} variant="outline-secondary text-white" className='fs-4'>Contact us</Button>
           </Col>
         </Row>
 
