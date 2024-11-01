@@ -28,7 +28,7 @@ const ContactUsPage = () => {
             border: '1px solid #ddd',
           }}
         >
-          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', textAlign: 'center' }}>Contact Us</h1>
+          <h1 style={{ fontWeight: 'bold', textAlign: 'center' }}>Contact Us</h1>
           <p style={{ color: '#000', textAlign: 'center', fontWeight:"300" }}>
             Give us a call or drop by anytime, we endeavor to answer all inquiries within 24 hours on business days.
             We will be happy to answer your questions.

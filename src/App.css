@@ -119,6 +119,10 @@
   transition: transform 1s ease;
 }
 
+.card__by{
+  font-weight: 300;
+
+}
 /* Animations for when in view */
 .card.visible .card__img {
   transform: translateX(0);
@@ -803,11 +807,23 @@
   .headerBtn {
       width: '80%'
   }
+
+  .contactUsCard:hover{
+    transform: scale(1.01);
+
+  }
+
+  .contactUsCard h1{
+    font-size: 2.5rem;
+  }
 }
 
 
 
 
+.contactUsCard h1{
+  font-size: 3rem;
+}
 .contactUsCard:hover{
   transition: transform 0.5s ease;
   transform: scale(1.1);

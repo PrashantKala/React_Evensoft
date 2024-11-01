@@ -5,12 +5,12 @@ import { Link, useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <footer className="d-flex justify-content-center align-items-end bg-black pt-5 pb-4">
+    <footer className="d-flex justify-content-center align-items-end p-1 bg-black pt-5 pb-4">
       <Container>
         {/* Top Section */}
         <Row className="mb-4">
           <Col md={8} className="mx-auto">
-            <h5 className="mb-4 text-white display-6 fw-bold">Get started with Eversoft</h5>
+            <h5 className="mb-4 text-white display-6 fw-bold">Get started with Evensoft</h5>
             <p className="fs-5 text-white">
               We’re here to help you revolutionize your security and development practices with pioneering technology.
             </p>
@@ -53,7 +53,7 @@ const Footer = () => {
             <Link to="/"><img src="../images/header_logo.svg" alt="Eversoft Logo" className="footer-logo" style={{ maxHeight: "100px" }} /></Link>
           </Col>
           <Col xs={12} md={8} className="d-flex justify-content-center justify-content-md-center">
-            <p className="mb-0 text-white">© 2024 Eversoft, Inc. All rights reserved.</p>
+            <p className="mb-0 text-white">© 2024 Evensoft, Inc. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
