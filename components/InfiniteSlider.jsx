@@ -35,7 +35,7 @@ const ImageSlider = () => {
   const currentImages = images.slice(currentIndex, currentIndex + 4);
 
   return (
-    <div style={{ textAlign: 'center', padding: '2rem 1rem' }}>
+    <div style={{ textAlign: 'center', padding: '2rem 1rem', paddingTop:"5rem", paddingBottom:"5rem"}}>
       <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Our Partners</h2>
       <div
         className="slider"
