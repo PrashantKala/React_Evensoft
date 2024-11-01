@@ -25,7 +25,10 @@ const SolutionsPage = () => {
         <>
             <Header heading="AI-Driven Innovation for Real-World Challenges" subHeading="From enhancing your workforce with AI personas to revolutionizing cyber operations, Evensoft delivers cutting-edge solutions tailored to your mission-critical needs." />
             <section className="cards ms-auto me-auto mt-5 mb-5 ">
-                <article className="card card--1">
+                <article style={{
+                    display: "flex",
+                    flexDirection: window.innerWidth <= 748 ? "column" : "row",
+                }} className="card card--1">
                     <div className="card__img" style={{ backgroundImage: `url('../images/jane.png')` }} />
                     <div className="card__info">
                         <h2 className="card__title">Jane AI</h2>
@@ -36,7 +39,10 @@ const SolutionsPage = () => {
                         </p>
                     </div>
                 </article>
-                <article className="card card--2">
+                <article style={{
+                    display: "flex",
+                    flexDirection: window.innerWidth <= 748 ? "column" : "row",
+                }} className="card card--2">
                     <div className="card__img" style={{ backgroundImage: `url('../images/quickscan.png')` }} />
                     <div className="card__info">
                         <h2 className="card__title">QuickScan Engine</h2>
@@ -47,7 +53,10 @@ const SolutionsPage = () => {
                         </p>
                     </div>
                 </article>
-                <article className="card card--3">
+                <article style={{
+                    display: "flex",
+                    flexDirection: window.innerWidth <= 748 ? "column" : "row",
+                }} className="card card--3">
                     <div className="card__img" style={{ backgroundImage: `url('../images/animate.png')` }} />
                     <div className="card__info">
                         <h2 className="card__title">Animate</h2>
@@ -69,17 +78,3 @@ const SolutionsPage = () => {
 export default SolutionsPage;
 
 
-// const ImageSlider = () => {
-//     const images = [
-//       '../images/oracle.png',
-//       '../images/modex.png',
-//       '../images/westerdigital.png',
-//       '../images/witfoo.png',
-//       '../images/cubic.png',
-//       '../images/westerdigital.png',
-//       '../images/modex.png',
-//       '../images/oracle.png',
-//       // '../images/',
-//       // '../images/',
-//       // Add more images as needed
-//     ];

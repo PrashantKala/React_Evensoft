@@ -45,12 +45,12 @@ const Header = (props) => {
         ></div>
       ))}
 
-      <div style={{ zIndex: 1 }} className="headerBtn text-center">
+      <div style={{ zIndex: 1, width:"70%" }} className="text-center">
         <h1 className='text-white display-5 fw-bold'>{props.heading}</h1>
         <p className='mt-3 text-white fs-5'>{props.subHeading}</p>
         <button onClick={()=>{
           navigate("/ContactUs")
-        }}  type="button" className="mt-3 btn btn-outline-secondary w-25 h-25 text-white">Contact Us</button>
+        }}  type="button" className="headerBtn mt-3 btn btn-outline-secondary h-25 text-white">Contact Us</button>
       </div>
     </section>
   );

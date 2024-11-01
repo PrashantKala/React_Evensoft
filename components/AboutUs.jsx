@@ -16,7 +16,7 @@ const AboutUs = () => {
                 "20+ Years AI/ML Architect and Cyber Range Experience",
                 "Inventor, Software Developer, U.S. Marine Corps Veteran (Tank Commander 1990-2000)",
                 "Passion for Dynamic Control Systems, AI Driven Robot Vision, Natural Language Processing, Artificial Neural Networks (particularly LLMs), Propositional Reasoning with Expert Systems and Patents in Stochastic Automata",
-                "Founder and President of EvenSoft, Specializing in Cybersecurity, Mobile, Single Board, Cloud, and Internet of Things",
+                "Founder and President of Evensoft, Specializing in Cybersecurity, Mobile, Single Board, Cloud, and Internet of Things",
                 "Former Executive Director of Technology for ManTech, Consulting for DoD Cyber Range and Co-Founding the DoD Cybersecurity Range",
                 "Founded Pacific Northwest National Laboratory’s Cybersecurity R&D Group, Serving as Chief Scientist",
                 "Patents in Traffic Gen, Stim/Sim, Hypervisor and Deception Technologies"
@@ -70,7 +70,7 @@ const AboutUs = () => {
     ];
     return (
         <>
-            <Header heading={"About EvenSoft"} subHeading={"Evensoft is the culmination of over 20 years of research, development, testing and successful integration into cyber training environments. Its highly experienced executive team averages 25 years of proven development, engineering and architect experience."} />
+            <Header heading={"About Evensoft"} subHeading={"Evensoft is the culmination of over 20 years of research, development, testing and successful integration into cyber training environments. Its highly experienced executive team averages 25 years of proven development, engineering and architect experience."} />
             <ExecutiveTeam teamMembers={teamMembers} />
             <DeveloperTeam developerTeam={developerTeam} />
             <Footer />

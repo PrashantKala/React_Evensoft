@@ -12,13 +12,15 @@ const Navabar = () => {
                     <img
                         src='../images/header_logo.svg'
                         width="100"
+                        height="auto" // Set a fixed height if needed, e.g., height="50"
                         className="d-inline-block align-top me-100 logo"
-                        alt="React Bootstrap logo"
+                        alt="Evensoft logo"
+                        style={{ width: "100px", height: "auto" }}
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="m-auto">
+                    <Nav className="ms-auto">
                         <NavLink to="/" className="unstyled-link nav-item text-white  ms-5 fw-bold">Home</NavLink>
                         <NavLink to="/Solutions" className="unstyled-link nav-item text-white  ms-5 fw-bold">Solutions</NavLink>
                         <NavLink to="/About" className="unstyled-link nav-item text-white  ms-5 fw-bold">About</NavLink>

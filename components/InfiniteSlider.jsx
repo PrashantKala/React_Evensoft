@@ -10,7 +10,7 @@ const ImageSlider = () => {
     '../images/morphix.png',
     '../images/reversinglabs.png',
     '../images/ids-international.png',
-    '../images/eolian.png',
+    // '../images/eolian.png',
     '../images/validize.png',
     '../images/securestrux.png',
     '../images/countercraft.png',
@@ -47,7 +47,7 @@ const ImageSlider = () => {
           // border: '2px solid black',
           padding: '10px',
           borderRadius: '10px',
-          maxWidth: '90%',
+          maxWidth: '100%',
           margin: '0 auto',
         }}
       >
@@ -57,13 +57,13 @@ const ImageSlider = () => {
             src={image}
             alt={`Slide ${currentIndex + index + 1}`}
             style={{
-              width: '150px',
-              height: '80px',
-              borderRadius: '10px',
-              boxShadow: '0 0 5px rgba(0, 0, 0, 0.2)',
+              width: '300px',
+              height: '100px',
+              // borderRadius: '10px',
+              // boxShadow: '0 0 5px rgba(0, 0, 0, 0.2)',
               transition: 'transform 0.3s ease',
               cursor: 'pointer',
-              objectFit: 'cover', // Ensures consistent size by cropping excess
+              // objectFit: 'cover', // Ensures consistent size by cropping excess
             }}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}

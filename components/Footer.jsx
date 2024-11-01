@@ -40,14 +40,14 @@ const Footer = () => {
             <Link className="unstyled-link" to="/Solutions"><li className=' text-white unstyled-link fs-5 ms-1 ' >Animate</li></Link>
             </ul>
           </Col>
-          <Col md={4}>
+          {/* <Col md={4}>
             <h4 className='text-white'>Legal</h4>
             <ul className="list-unstyled">
             <Link className="unstyled-link" to="/PrivacyPolicy"><li className='text-white unstyled-link fs-5 ms-1 ' >Privacy Policy</li></Link>
             <Link className="unstyled-link" to="/TermsOfUse"><li className='text-white unstyled-link fs-5 ms-1 ' >Terms of Use</li></Link>
             <Link className="unstyled-link" to="/IntellectualProperty"><li className='text-white unstyled-link fs-5 ms-1 ' >Intellectual Property</li></Link>
             </ul>
-          </Col>
+          </Col> */}
           
         </Row>
 

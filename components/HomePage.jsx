@@ -29,36 +29,37 @@ const HomePage = () => {
     <>
       <Header heading={"Unlock the Future of AI with Evensoft"} subHeading={"Cyber, Cloud, Trusted AI, and Tactical Edge Solutions – Accelerating Innovation with Unmatched Speed and Precision"} />
       <section class="capabilities">
-        <h2>What We Do</h2>
+          <h2>Our Capabilities</h2>
+          <h3>What We Do</h3>
         <div class="services">
           <div class="service-item service-item1">
-            <i class="icon-lightbulb"></i>
-            <h3>Strategic Advisory</h3>
+          <i className="fas fa-lightbulb"></i>
+            <h3 className='fs-4' >Strategic Advisory</h3>
             <p>Unparalleled intelligence and proven roadmaps for building game-changing security companies</p>
           </div>
           <div class="service-item service-item2">
-            <i class="icon-briefcase"></i>
-            <h3>Business Development</h3>
+            <i class="fas fa-briefcase"></i>
+            <h3 className='fs-4' >Business Development</h3>
             <p>We help clients develop and execute winning federal and commercial sales strategies</p>
           </div>
           <div class="service-item service-item3">
-            <i class="icon-puzzle"></i>
-            <h3>Transaction Advisory</h3>
+          <i class="fas fa-puzzle-piece"></i>
+            <h3 className='fs-4' >Transaction Advisory</h3>
             <p>Buy-side advisory and sell-side support for private equity and strategic acquirers</p>
           </div>
           <div class="service-item service-item4">
-            <i class="icon-database"></i>
-            <h3>Product Strategy</h3>
+            <i class="fas fa-database"></i>
+            <h3 className='fs-4' >Product Strategy</h3>
             <p>We help our clients design, build, position, and launch their cybersecurity solutions successfully</p>
           </div>
           <div class="service-item service-item5">
-            <i class="icon-chart"></i>
-            <h3>Corporate Finance</h3>
+          <i class="fas fa-chart-line"></i>
+            <h3 className='fs-4' >Corporate Finance</h3>
             <p>We design and build world-class financial models, budgets, forecasts, and management reporting tools</p>
           </div>
           <div class="service-item service-item6">
-            <i class="icon-shield"></i>
-            <h3>Data Privacy & AI</h3>
+            <i class="fas fa-shield"></i>
+            <h3 className='fs-4' >Data Privacy & AI</h3>
             <p>Helping clients manage risk and navigate the evolving data privacy & AI regulatory environments</p>
           </div>
         </div>
