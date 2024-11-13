@@ -2,22 +2,29 @@ import React, { useState, useEffect } from 'react';
 
 const ImageSlider = () => {
   const images = [
+    '../images/cubic.png',
+    '../images/mantech.png',
+    '../images/keysight.png',
+    '../images/animate.webp',
     '../images/oracle.png',
-    '../images/modex.png',
+    // '../images/modex.png',
     '../images/westerdigital.png',
-    '../images/witfoo.png',
-    '../images/logzilla.png',
-    '../images/morphix.png',
-    '../images/reversinglabs.png',
+    // '../images/witfoo.png',
+    // '../images/logzilla.png',
+    // '../images/morphix.png',
+    // '../images/reversinglabs.png',
     '../images/ids-international.png',
     // '../images/eolian.png',
-    '../images/validize.png',
-    '../images/securestrux.png',
-    '../images/countercraft.png',
-    '../images/codehunter-e1673637888478.png',
+    // '../images/validize.png',
+    // '../images/securestrux.png',
+    // '../images/countercraft.png',
+    // '../images/codehunter-e1673637888478.png',
     '../images/cybermyte-1.png',
-    '../images/sightgain.png',
+    // '../images/sightgain.png',
     '../images/uki.png',
+    '../images/hypersphere.png',
+    '../images/piachievers.png',
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
