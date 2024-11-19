@@ -828,3 +828,26 @@
   transition: transform 0.5s ease;
   transform: scale(1.1);
 }
+
+
+.footer-logo {
+  max-height: 100px; /* Ensure logo is not too large */
+}
+
+.seal-img {
+  max-width: 100%; /* Ensures the seal scales properly */
+  height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .seal-img {
+    max-width: 150px; /* Reduce size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .seal-img {
+    max-width: 120px; /* Further reduce size for extra small screens */
+  }
+}
+

@@ -2,12 +2,12 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link, useNavigate } from "react-router-dom";
 
+
 const Footer = () => {
   const navigate = useNavigate();
   return (
     <footer className="d-flex justify-content-center align-items-end p-1 bg-black pt-5 pb-4">
       <Container>
-        {/* Top Section */}
         <Row className="mb-4">
           <Col md={8} className="mx-auto">
             <h5 className="mb-4 text-white display-6 fw-bold">Get started with Evensoft</h5>
@@ -22,10 +22,10 @@ const Footer = () => {
           </Col>
         </Row>
 
-        {/* Divider */}
+
         <hr style={{ color: "white" }} className="mt-5 mb-5" />
 
-        {/* Bottom Section */}
+
         <Row className="text-start m-auto">
           <Col md={10}>
             <h4 className="text-white">Solutions</h4>
@@ -44,10 +44,10 @@ const Footer = () => {
           </Col>
         </Row>
 
-        {/* Divider */}
+
         <hr style={{ color: "white" }} className="mt-5 " />
 
-        {/* Logo and Copyright */}
+
         <Row className="align-items-center text-center text-md-start">
           <Col xs={12} md={2} className="d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
             <Link to="/"><img src="../images/header_logo.svg" alt="Eversoft Logo" className="footer-logo" style={{ maxHeight: "100px" }} /></Link>
@@ -55,6 +55,20 @@ const Footer = () => {
           <Col xs={12} md={8} className="d-flex justify-content-center justify-content-md-center">
             <p className="mb-0 text-white">© 2024 Evensoft, Inc. All rights reserved.</p>
           </Col>
+          <Col 
+  xs={12} 
+  md={2} 
+  className="d-flex justify-content-center justify-content-md-start mb-3 mb-md-0"
+>
+  <Link to="/">
+    <img 
+      src="https://www.positivessl.com/images/seals/positivessl_trust_seal_lg_222x54.png" 
+      alt="Seal" 
+      className="seal-img" 
+    />
+  </Link>
+</Col>
+
         </Row>
       </Container>
     </footer>
